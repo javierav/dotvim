@@ -58,3 +58,6 @@
 [submodule "bundle/molokai-colors"]
 	path = bundle/molokai-colors
 	url = https://github.com/tomasr/molokai.git
+[submodule "bundle/github-colors"]
+	path = bundle/github-colors
+	url = https://github.com/endel/vim-github-colorscheme.git

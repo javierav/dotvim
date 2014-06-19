@@ -14,6 +14,9 @@ set ai                " Auto indentattion
 set cc=80             " Marks 100 chars column
 set cursorline        " Highlight current line
 set showcmd           " Show introduced command
+filetype on           " Enable filetype detection
+filetype indent on    " Enable filetype-specific indenting
+filetype plugin on    " Enable filetype-specific plugins
 
 
 ""
@@ -101,8 +104,8 @@ execute pathogen#infect()
 "" Theme & colors
 ""
 
-set background=dark
-colorscheme molokai
+"set background=dark
+colorscheme github "molokai
 
 
 ""
