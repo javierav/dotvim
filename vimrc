@@ -145,6 +145,7 @@ nmap <leader>ig :IndentLinesToggle<CR>
 "" Syntax
 ""
 au BufNewFile,BufRead *.god set filetype=ruby
+au BufNewFile,BufRead *Jakefile set filetype=javascript
 
 
 " TODO
