@@ -61,3 +61,6 @@
 [submodule "bundle/github-colors"]
 	path = bundle/github-colors
 	url = https://github.com/endel/vim-github-colorscheme.git
+[submodule "bundle/Dockerfile"]
+	path = bundle/Dockerfile
+	url = https://github.com/ekalinin/Dockerfile.vim.git
