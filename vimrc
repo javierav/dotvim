@@ -43,6 +43,7 @@ set listchars+=extends:>          " The character to show in the last column whe
 set listchars+=precedes:<         " The character to show in the last column when wrap is
                                   " off and the line continues beyond the left of the screen
 
+
 ""
 "" Searching
 ""
@@ -51,6 +52,16 @@ set hlsearch    " highlight matches
 set incsearch   " incremental searching
 set ignorecase  " searches are case insensitive...
 set smartcase   " ... unless they contain at least one capital letter
+
+
+""
+"" Persistent undo
+""
+
+set undofile                  " save undo's after file closes
+set undodir=$HOME/.vim/undo   " where to save undo histories
+set undolevels=1000           " how many undos
+set undoreload=10000          " number of lines to save for undo
 
 
 ""
