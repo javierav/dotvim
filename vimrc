@@ -105,7 +105,8 @@ execute pathogen#infect()
 ""
 
 set background=dark
-colorscheme solarized "base16-railscasts | molokai | github
+let g:molokai_original = 1
+colorscheme molokai "solarized | base16-railscasts | github
 
 "highlight clear SignColumn
 "highlight VertSplit    ctermbg=236
