@@ -115,17 +115,21 @@ execute pathogen#infect()
 "" Theme & colors
 ""
 
-" available: molokai | solarized | base16-railscasts | github
+" available: molokai | solarized | base16-railscasts | github | vimbrant
 
 set background=dark
 
 if $PLATFORM == 'linux'
   colorscheme solarized
 else
-  let g:molokai_original = 1
-  colorscheme molokai
+  "let g:molokai_original = 1
+  "colorscheme molokai
+  colorscheme vimbrant
+  highlight ColorColumn ctermbg=7
+  highlight ColorColumn guibg=Gray
 endif
 
+" for railscasts
 "highlight clear SignColumn
 "highlight VertSplit    ctermbg=236
 "highlight ColorColumn  ctermbg=237
