@@ -120,7 +120,7 @@ execute pathogen#infect()
 set background=dark
 
 if $PLATFORM == 'linux'
-  colorscheme solarized
+  colorscheme seoul256
 else
   "let g:molokai_original = 1
   "colorscheme molokai
