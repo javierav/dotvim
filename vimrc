@@ -117,17 +117,20 @@ execute pathogen#infect()
 
 " available: molokai | solarized | base16-railscasts | github | vimbrant
 
-set background=dark
+"set background=dark
+"
+"if $PLATFORM == 'linux'
+"  colorscheme seoul256
+"else
+"  "let g:molokai_original = 1
+"  "colorscheme molokai
+"  colorscheme vimbrant
+"  highlight ColorColumn ctermbg=7
+"  highlight ColorColumn guibg=Gray
+"endif
 
-if $PLATFORM == 'linux'
-  colorscheme seoul256
-else
-  "let g:molokai_original = 1
-  "colorscheme molokai
-  colorscheme vimbrant
-  highlight ColorColumn ctermbg=7
-  highlight ColorColumn guibg=Gray
-endif
+" seoul256
+colorscheme seoul256
 
 " for railscasts
 "highlight clear SignColumn
