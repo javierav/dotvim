@@ -1,78 +1,78 @@
 [submodule "bundle/solarized"]
-	path = bundle/solarized
+	path = bundle/colors-solarized
 	url = https://github.com/altercation/vim-colors-solarized.git
 [submodule "bundle/nerdtree"]
-	path = bundle/nerdtree
+	path = bundle/tools-nerdtree
 	url = https://github.com/scrooloose/nerdtree.git
 [submodule "bundle/fugitive"]
-	path = bundle/fugitive
+	path = bundle/tools-fugitive
 	url = https://github.com/tpope/vim-fugitive.git
 [submodule "bundle/lightline"]
-	path = bundle/lightline
+	path = bundle/tools-lightline
 	url = https://github.com/itchyny/lightline.vim.git
 [submodule "bundle/handlebars"]
-	path = bundle/handlebars
+	path = bundle/syntax-handlebars
 	url = git://github.com/nono/vim-handlebars.git
 [submodule "bundle/tlib"]
-	path = bundle/tlib
+	path = bundle/lib-tlib
 	url = https://github.com/tomtom/tlib_vim.git
 [submodule "bundle/vim-addon-mw-utils"]
-	path = bundle/vim-addon-mw-utils
+	path = bundle/lib-mw-utils
 	url = https://github.com/MarcWeber/vim-addon-mw-utils.git
 [submodule "bundle/snipmate"]
-	path = bundle/snipmate
+	path = bundle/tools-snipmate
 	url = https://github.com/garbas/vim-snipmate.git
 [submodule "bundle/snippets"]
-	path = bundle/snippets
+	path = bundle/tools-snippets
 	url = https://github.com/honza/vim-snippets.git
 [submodule "bundle/nginx-syntax"]
 	path = bundle/nginx-syntax
 	url = https://github.com/evanmiller/nginx-vim-syntax.git
 [submodule "bundle/narrow-region"]
-	path = bundle/narrow-region
+	path = bundle/syntax-narrow-region
 	url = https://github.com/chrisbra/NrrwRgn.git
 [submodule "bundle/indent-line"]
-	path = bundle/indent-line
+	path = bundle/syntax-indent-line
 	url = https://github.com/Yggdroot/indentLine.git
 [submodule "bundle/emblem"]
-	path = bundle/emblem
+	path = bundle/syntax-emblem
 	url = https://github.com/heartsentwined/vim-emblem.git
 [submodule "bundle/editorconfig"]
-	path = bundle/editorconfig
+	path = bundle/tools-editorconfig
 	url = https://github.com/editorconfig/editorconfig-vim.git
 [submodule "bundle/vim-ruby"]
-	path = bundle/vim-ruby
+	path = bundle/syntax-ruby
 	url = https://github.com/vim-ruby/vim-ruby.git
 [submodule "bundle/json"]
-	path = bundle/json
+	path = bundle/syntax-json
 	url = https://github.com/elzr/vim-json.git
 [submodule "bundle/markdown"]
-	path = bundle/markdown
+	path = bundle/syntax-markdown
 	url = https://github.com/tpope/vim-markdown.git
 [submodule "bundle/syntastic"]
-	path = bundle/syntastic
+	path = bundle/syntax-syntastic
 	url = https://github.com/scrooloose/syntastic.git
 [submodule "bundle/javascript-syntax"]
-	path = bundle/javascript-syntax
+	path = bundle/syntax-javascript
 	url = https://github.com/jelera/vim-javascript-syntax.git
 [submodule "bundle/molokai-colors"]
-	path = bundle/molokai-colors
+	path = bundle/colors-molokai
 	url = https://github.com/tomasr/molokai.git
 [submodule "bundle/github-colors"]
-	path = bundle/github-colors
+	path = bundle/colors-github
 	url = https://github.com/endel/vim-github-colorscheme.git
 [submodule "bundle/Dockerfile"]
-	path = bundle/Dockerfile
+	path = bundle/syntax-docker
 	url = https://github.com/ekalinin/Dockerfile.vim.git
 [submodule "bundle/vim-coffee-script"]
-	path = bundle/vim-coffee-script
+	path = bundle/syntax-coffeescript
 	url = https://github.com/kchmck/vim-coffee-script.git
 [submodule "bundle/vim-css-color"]
-	path = bundle/vim-css-color
+	path = bundle/syntax-css-color
 	url = https://github.com/ap/vim-css-color.git
 [submodule "bundle/emmet"]
-	path = bundle/emmet
+	path = bundle/tools-emmet
 	url = https://github.com/mattn/emmet-vim.git
 [submodule "bundle/seoul256-colors"]
-	path = bundle/seoul256-colors
+	path = bundle/colors-seoul256
 	url = https://github.com/junegunn/seoul256.vim.git
