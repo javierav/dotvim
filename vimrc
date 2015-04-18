@@ -17,6 +17,7 @@ set showcmd           " Show introduced command
 filetype on           " Enable filetype detection
 filetype indent on    " Enable filetype-specific indenting
 filetype plugin on    " Enable filetype-specific plugins
+set title             " Show current filename in terminal title
 
 
 ""
@@ -164,7 +165,7 @@ let g:lightline = {
       \ 'colorscheme': 'powerline',
       \ 'active': {
       \   'left': [ [ 'mode', 'paste' ],
-      \             [ 'fugitive', 'readonly', 'filename', 'modified' ]
+      \             [ 'fugitive', 'readonly', 'absolutepath', 'modified' ]
       \   ]
       \ },
       \ 'component': {
