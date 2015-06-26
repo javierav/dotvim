@@ -189,11 +189,20 @@ nmap <leader>ig :IndentLinesToggle<CR>
 au BufNewFile,BufRead *.god set filetype=ruby
 au BufNewFile,BufRead *Jakefile set filetype=javascript
 
+""
+"" Syntastic
+""
+let g:syntastic_enable_signs = 1 " mark syntax errors with :signs
+let g:syntastic_auto_jump = 0 " do not automatically jump to the error when saving the file
+let g:syntastic_auto_loc_list = 1 " show the error list automatically
+
+" configure checkers
+let g:syntastic_ruby_checkers=['mri', 'rubocop']
+
 
 " TODO
 " https://github.com/tpope/vim-rvm
 " configure statusline
 " vim-ruby
 " vim-rails
-" https://github.com/scrooloose/syntastic
 " vim-pomodoro
