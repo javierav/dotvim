@@ -192,9 +192,12 @@ au BufNewFile,BufRead *Jakefile set filetype=javascript
 ""
 "" Syntastic
 ""
-let g:syntastic_enable_signs = 1 " mark syntax errors with :signs
-let g:syntastic_auto_jump = 0 " do not automatically jump to the error when saving the file
-let g:syntastic_auto_loc_list = 1 " show the error list automatically
+let g:syntastic_check_on_open = 1
+let g:syntastic_check_on_wq = 0
+let g:syntastic_error_symbol = "✗"
+let g:syntastic_style_error_symbol = "✗"
+let g:syntastic_warning_symbol = "⚠"
+let g:syntastic_style_warning_symbol = "⚠"
 
 " configure checkers
 let g:syntastic_ruby_checkers=['mri', 'rubocop']
@@ -202,7 +205,6 @@ let g:syntastic_ruby_checkers=['mri', 'rubocop']
 
 " TODO
 " https://github.com/tpope/vim-rvm
-" configure statusline
-" vim-ruby
+" configure statusline with syntastic info
 " vim-rails
 " vim-pomodoro
