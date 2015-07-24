@@ -76,3 +76,6 @@
 [submodule "bundle/seoul256-colors"]
 	path = bundle/colors-seoul256
 	url = https://github.com/junegunn/seoul256.vim.git
+[submodule "bundle/syntax-taskjuggler"]
+	path = bundle/syntax-taskjuggler
+	url = https://github.com/kalafut/vim-taskjuggler.git
