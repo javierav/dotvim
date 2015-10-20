@@ -79,3 +79,6 @@
 [submodule "bundle/syntax-taskjuggler"]
 	path = bundle/syntax-taskjuggler
 	url = https://github.com/kalafut/vim-taskjuggler.git
+[submodule "bundle/syntax-toml"]
+	path = bundle/syntax-toml
+	url = https://github.com/cespare/vim-toml.git
