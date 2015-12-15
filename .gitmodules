@@ -82,3 +82,6 @@
 [submodule "bundle/syntax-toml"]
 	path = bundle/syntax-toml
 	url = https://github.com/cespare/vim-toml.git
+[submodule "bundle/syntax-slim"]
+	path = bundle/syntax-slim
+	url = https://github.com/slim-template/vim-slim.git
