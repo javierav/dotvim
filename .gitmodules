@@ -85,3 +85,6 @@
 [submodule "bundle/syntax-slim"]
 	path = bundle/syntax-slim
 	url = https://github.com/slim-template/vim-slim.git
+[submodule "bundle/tools-nerdtree-git"]
+	path = bundle/tools-nerdtree-git
+	url = https://github.com/Xuyuanp/nerdtree-git-plugin.git
