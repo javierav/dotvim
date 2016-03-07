@@ -101,6 +101,7 @@ set directory^=~/.vim/_temp//      " where to put swap files.
 ""
 let mapleader=","
 
+
 ""
 "" Pathogen
 ""
@@ -116,38 +117,8 @@ execute pathogen#infect()
 "" Theme & colors
 ""
 
-" available: molokai | solarized | base16-railscasts | github | vimbrant
-
-"set background=dark
-"
-"if $PLATFORM == 'linux'
-"  colorscheme seoul256
-"else
-"  "let g:molokai_original = 1
-"  "colorscheme molokai
-"  colorscheme vimbrant
-"  highlight ColorColumn ctermbg=7
-"  highlight ColorColumn guibg=Gray
-"endif
-
-" seoul256
+" available: molokai | solarized | base16-railscasts | github | vimbrant | seoul256
 colorscheme seoul256
-
-" for railscasts
-"highlight clear SignColumn
-"highlight VertSplit    ctermbg=236
-"highlight ColorColumn  ctermbg=237
-"highlight LineNr       ctermbg=236 ctermfg=240
-"highlight CursorLineNr ctermbg=236 ctermfg=240
-"highlight CursorLine   ctermbg=236
-"highlight StatusLineNC ctermbg=238 ctermfg=0
-"highlight StatusLine   ctermbg=240 ctermfg=12
-"highlight IncSearch    ctermbg=3   ctermfg=1
-"highlight Search       ctermbg=1   ctermfg=3
-"highlight Visual       ctermbg=3   ctermfg=0
-"highlight Pmenu        ctermbg=240 ctermfg=12
-"highlight PmenuSel     ctermbg=3   ctermfg=1
-"highlight SpellBad     ctermbg=0   ctermfg=1
 
 
 ""
@@ -197,13 +168,14 @@ let g:lightline = {
 "" Indent Lines
 "
 let g:indentLine_enabled = 0
-nmap <leader>ig :IndentLinesToggle<CR>
+
 
 ""
 "" Syntax
 ""
 au BufNewFile,BufRead *.god set filetype=ruby
 au BufNewFile,BufRead *Jakefile set filetype=javascript
+
 
 ""
 "" Syntastic
@@ -219,8 +191,8 @@ let g:syntastic_style_warning_symbol = "⚠"
 let g:syntastic_ruby_checkers=['mri', 'rubocop']
 
 
-" TODO
-" https://github.com/tpope/vim-rvm
-" configure statusline with syntastic info
-" vim-rails
-" vim-pomodoro
+"
+"" Key Mappings
+"
+nmap <leader>ig :IndentLinesToggle<CR>
+nmap <C-e> :NERDTree<CR>
