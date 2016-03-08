@@ -192,6 +192,17 @@ let g:syntastic_ruby_checkers=['mri', 'rubocop']
 
 
 "
+"" Markdown Syntax
+"
+let g:vim_markdown_folding_disabled = 1         " disable folding
+let g:vim_markdown_conceal = 0                  " disable conceal (show [link text](link url) as just link text)
+let g:vim_markdown_no_default_key_mappings = 1  " disable default key mappings
+let g:vim_markdown_frontmatter = 1              " enable highlight of YAML front matter
+let g:vim_markdown_toml_frontmatter = 1         " enable highlight of TOML front matter
+let g:vim_markdown_json_frontmatter = 1         " enable highlight of JSON front matter
+
+
+"
 "" Key Mappings
 "
 nmap <leader>ig :IndentLinesToggle<CR>
