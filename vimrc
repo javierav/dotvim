@@ -201,6 +201,11 @@ let g:vim_markdown_frontmatter = 1              " enable highlight of YAML front
 let g:vim_markdown_toml_frontmatter = 1         " enable highlight of TOML front matter
 let g:vim_markdown_json_frontmatter = 1         " enable highlight of JSON front matter
 
+"
+"" JSON syntax
+"
+let g:vim_json_syntax_conceal = 0   " diable concealing
+
 
 "
 "" Key Mappings
