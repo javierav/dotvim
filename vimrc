@@ -117,8 +117,8 @@ execute pathogen#infect()
 "" Theme & colors
 ""
 
-" available: molokai | solarized | base16-railscasts | github | vimbrant | seoul256
-colorscheme seoul256
+" available: molokai | solarized | base16-railscasts | github | vimbrant | seoul256 | despacio
+colorscheme despacio
 
 
 ""

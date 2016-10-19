@@ -91,3 +91,6 @@
 [submodule "bundle/tools-lastplace"]
 	path = bundle/tools-lastplace
 	url = https://github.com/dietsche/vim-lastplace.git
+[submodule "bundle/colors-despacio"]
+	path = bundle/colors-despacio
+	url = https://github.com/AlessandroYorba/Despacio.git
