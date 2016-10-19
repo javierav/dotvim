@@ -88,3 +88,6 @@
 [submodule "bundle/syntax-markdown"]
 	path = bundle/syntax-markdown
 	url = https://github.com/plasticboy/vim-markdown.git
+[submodule "bundle/tools-lastplace"]
+	path = bundle/tools-lastplace
+	url = https://github.com/dietsche/vim-lastplace.git
