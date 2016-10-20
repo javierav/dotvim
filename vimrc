@@ -18,6 +18,8 @@ filetype on           " Enable filetype detection
 filetype indent on    " Enable filetype-specific indenting
 filetype plugin on    " Enable filetype-specific plugins
 set title             " Show current filename in terminal title
+set modeline          " Enable modelines
+set modelines=5       " Search modelines only in the first five lines
 
 
 ""
