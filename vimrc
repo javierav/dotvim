@@ -177,6 +177,7 @@ let g:indentLine_enabled = 0
 ""
 au BufNewFile,BufRead *.god set filetype=ruby
 au BufNewFile,BufRead *Jakefile set filetype=javascript
+au BufNewFile,BufRead *.skim set filetype=slim
 
 
 ""
