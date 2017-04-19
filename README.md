@@ -12,6 +12,13 @@ $ git submodule update --init
 ```
 
 
+## Update plugins
+
+```
+$ ./update-plugins.sh
+```
+
+
 ## License
 
-Copyright (c) 2016 Javier Aranda - Released under [MIT](LICENSE) license
+Copyright (c) 2017 Javier Aranda - Released under [MIT](LICENSE) license
