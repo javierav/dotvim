@@ -112,3 +112,6 @@
 [submodule "bundle/colors-onedark"]
 	path = bundle/colors-onedark
 	url = https://github.com/joshdick/onedark.vim.git
+[submodule "bundle/syntax-polyglot"]
+	path = bundle/syntax-polyglot
+	url = https://github.com/sheerun/vim-polyglot.git
