@@ -106,3 +106,6 @@
 [submodule "bundle/syntax-pug"]
 	path = bundle/syntax-pug
 	url = https://github.com/digitaltoad/vim-pug.git
+[submodule "bundle/tools-gitgutter"]
+	path = bundle/tools-gitgutter
+	url = https://github.com/airblade/vim-gitgutter.git
