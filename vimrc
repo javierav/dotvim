@@ -119,8 +119,15 @@ execute pathogen#infect()
 "" Theme & colors
 ""
 
-" available: molokai | solarized | base16-railscasts | github | vimbrant | seoul256 | despacio
-colorscheme despacio
+" from https://github.com/joshdick/onedark.vim#installation
+" used in onedark theme
+if (empty($TMUX))
+  if (has("termguicolors"))
+    set termguicolors
+  endif
+endif
+
+colorscheme onedark
 
 
 ""
@@ -151,7 +158,7 @@ let g:NERDTreeIndicatorMapCustom = {
 "" Lightline status line
 ""
 let g:lightline = {
-      \ 'colorscheme': 'powerline',
+      \ 'colorscheme': 'onedark',
       \ 'active': {
       \   'left': [ [ 'mode', 'paste' ],
       \             [ 'fugitive', 'readonly', 'absolutepath', 'modified' ]
