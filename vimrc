@@ -192,6 +192,7 @@ let g:syntastic_style_warning_symbol = "⚠"
 
 " configure checkers
 let g:syntastic_ruby_checkers=['mri', 'rubocop']
+let g:syntastic_ruby_rubocop_args = "-D"
 
 
 "
