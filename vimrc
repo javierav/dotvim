@@ -1,4 +1,12 @@
 ""
+"" Load custom before script
+""
+if filereadable(expand("~/.vimrc.before"))
+  source ~/.vimrc.before
+endif
+
+
+""
 "" Basic Setup
 ""
 
@@ -223,3 +231,11 @@ let g:vim_json_syntax_conceal = 0   " diable concealing
 "
 nmap <leader>ig :IndentLinesToggle<CR>
 nmap <C-e> :NERDTree<CR>
+
+
+""
+"" Load custom after script
+""
+if filereadable(expand("~/.vimrc.after"))
+  source ~/.vimrc.after
+endif
