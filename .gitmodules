@@ -115,3 +115,9 @@
 [submodule "bundle/syntax-polyglot"]
 	path = bundle/syntax-polyglot
 	url = https://github.com/sheerun/vim-polyglot.git
+[submodule "bundle/tools-endwise"]
+	path = bundle/tools-endwise
+	url = https://github.com/tpope/vim-endwise.git
+[submodule "bundle/tools-autopairs"]
+	path = bundle/tools-autopairs
+	url = https://github.com/jiangmiao/auto-pairs.git
