@@ -6,7 +6,39 @@ submodulos de Git para gestionar los plugins.
 
 ## Plugins instalados
 
-`TODO`: Escribir listado de plugins.
+### Temas
+
+* [OneDark](https://github.com/joshdick/onedark.vim): tema de color de Atom portado a Vim.
+
+### Linters
+
+* [Syntastic](https://github.com/scrooloose/syntastic): comprobador de sintaxis.
+
+### Sintaxis
+
+* [CssColor](https://github.com/ap/vim-css-color): mostrar en color las referencias a colores en
+    el CSS.
+* [Polyglot](https://github.com/sheerun/vim-polyglot): resaltado de sintaxis para multiples tipos.
+
+### Utilidades
+
+* [Autopairs](https://github.com/jiangmiao/auto-pairs): inserta o borra corchetes, paréntesis y
+    comillas en pares.
+* [CtrlP](https://github.com/ctrlpvim/ctrlp.vim): buscador de archivos.
+* [EditorConfig](https://github.com/editorconfig/editorconfig-vim): aplica la configuración del
+    archivo `.editorconfig`.
+* [Endwise](https://github.com/tpope/vim-endwise): cierre de bloques para Ruby.
+* [Fugitive](https://github.com/tpope/vim-fugitive): integración con Git.
+* [GitGutter](https://github.com/airblade/vim-gitgutter): mostrar cambios de Git en la columna
+    de avisos.
+* [IndentLine](https://github.com/Yggdroot/indentLine): muestra el nivel de indentación con líneas
+    verticales.
+* [LastPlace](): memoriza la posición del cursor al cerrar un archivo para abrirlo en el
+    mismo lugar.
+* [LightLine](https://github.com/itchyny/lightline.vim): barra de estado configurable.
+* [NERDTree](https://github.com/scrooloose/nerdtree): explorador de archivos.
+* [NERDTree-Git](https://github.com/Xuyuanp/nerdtree-git-plugin): mostrar cambios de Git en el
+    explorador.
 
 
 ## Instalación
@@ -58,6 +90,11 @@ añadir nueva.
 ## Atajos de teclado
 
 `TODO`: Escribir los atajos de teclado usados por los plugins y los definidos propios.
+
+
+## Consejos
+
+`TODO`: Escribir tips habituales para futuras referencias
 
 
 ## Licencia

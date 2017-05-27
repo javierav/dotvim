@@ -21,6 +21,7 @@ set laststatus=2      " Always show the statusbar
 set ai                " Auto indentattion
 set cc=100            " Marks 100 chars column
 set cursorline        " Highlight current line
+" set cursorcolumn      " Highlight current column
 set showcmd           " Show introduced command
 filetype on           " Enable filetype detection
 filetype indent on    " Enable filetype-specific indenting
@@ -118,8 +119,8 @@ let mapleader=","
 
 " To disable a plugin, add it's bundle name to the following list
 let g:pathogen_disabled = []
-call add(g:pathogen_disabled, 'indent-line')
 
+" Infect!
 execute pathogen#infect()
 
 
@@ -184,7 +185,7 @@ let g:lightline = {
 "
 "" Indent Lines
 "
-let g:indentLine_enabled = 0
+let g:indentLine_enabled = 1
 
 
 ""
@@ -205,7 +206,7 @@ let g:syntastic_style_error_symbol = "✗"
 let g:syntastic_warning_symbol = "⚠"
 let g:syntastic_style_warning_symbol = "⚠"
 
-" configure checkers
+" Configure checkers
 let g:syntastic_ruby_checkers=['mri', 'rubocop']
 let g:syntastic_ruby_rubocop_args = "-D"
 
@@ -229,7 +230,7 @@ let g:vim_json_syntax_conceal = 0   " diable concealing
 "
 "" Key Mappings
 "
-nmap <leader>ig :IndentLinesToggle<CR>
+nmap <leader>il :IndentLinesToggle<CR>
 nmap <C-e> :NERDTree<CR>
 
 
