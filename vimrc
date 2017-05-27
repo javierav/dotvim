@@ -121,7 +121,7 @@ let mapleader=","
 let g:pathogen_disabled = []
 
 " Infect!
-execute pathogen#infect()
+execute pathogen#infect('bundle/{}', '~/.vim-plugins/{}')
 
 
 ""

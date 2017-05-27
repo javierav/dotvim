@@ -86,6 +86,12 @@ añadir nueva.
 
 > *Nota* No es obligatorio crear los archivos. El script comprueba si existen antes de cargarlos.
 
+### Plugins locales
+
+También es posible instalar plugins en el equipo local sin tener que modificar nada en el directorio
+`.vim`. Para ello crea el directorio `~/.vim-plugins` y clona dentro los repositorios de los plugins
+que quieras instalar de manera local.
+
 
 ## Atajos de teclado
 
