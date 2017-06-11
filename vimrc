@@ -234,6 +234,21 @@ nmap <leader>il :IndentLinesToggle<CR>
 nmap <C-e> :NERDTree<CR>
 
 
+"
+"" Auto paste mode
+"
+let &t_SI .= "\<Esc>[?2004h"
+let &t_EI .= "\<Esc>[?2004l"
+
+inoremap <special> <expr> <Esc>[200~ XTermPasteBegin()
+
+function! XTermPasteBegin()
+  set pastetoggle=<Esc>[201~
+  set paste
+  return ""
+endfunction
+
+
 ""
 "" Load custom after script
 ""
