@@ -188,6 +188,12 @@ let g:lightline = {
 let g:indentLine_enabled = 1
 
 
+"
+"" Fugitive
+"
+let g:fugitive_gitlab_domains = ['https://gitlab.nosolosoftware.es']
+
+
 ""
 "" Syntax
 ""

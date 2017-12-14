@@ -43,3 +43,9 @@
 [submodule "bundle/tools-autopairs"]
 	path = bundle/tools-autopairs
 	url = https://github.com/jiangmiao/auto-pairs.git
+[submodule "bundle/tools-fugitive-github"]
+	path = bundle/tools-fugitive-github
+	url = https://github.com/tpope/vim-rhubarb.git
+[submodule "bundle/tools-fugitive-gitlab"]
+	path = bundle/tools-fugitive-gitlab
+	url = https://github.com/shumphrey/fugitive-gitlab.vim.git
