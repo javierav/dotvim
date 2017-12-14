@@ -29,6 +29,8 @@ submodulos de Git para gestionar los plugins.
     archivo `.editorconfig`.
 * [Endwise](https://github.com/tpope/vim-endwise): cierre de bloques para Ruby.
 * [Fugitive](https://github.com/tpope/vim-fugitive): integración con Git.
+* [Fugitive-Github](https://github.com/tpope/vim-fugitive): integración de Github en Fugitive.
+* [Fugitive-Gitlab](https://github.com/shumphrey/fugitive-gitlab.vim): integración de Gitlab en Fugitive.
 * [GitGutter](https://github.com/airblade/vim-gitgutter): mostrar cambios de Git en la columna
     de avisos.
 * [IndentLine](https://github.com/Yggdroot/indentLine): muestra el nivel de indentación con líneas
@@ -93,14 +95,60 @@ También es posible instalar plugins en el equipo local sin tener que modificar 
 que quieras instalar de manera local.
 
 
-## Atajos de teclado
+## Comandos y atajos de teclado
 
-`TODO`: Escribir los atajos de teclado usados por los plugins y los definidos propios.
+**\<leader>**: la tecla que actúa como líder es la coma `,`.
+
+
+### Fugitive
+
+| Comando | Atajo | Descripción |
+| --- | :---: | --- |
+| `:Gbrowse` | | Abre el archivo actual en un navegador usando github o gitlab |
+| `:Gblame` | | Muestra quién ha modificado cada línea del archivo, el commit y la fecha |
+
+
+### NERDTree
+
+| Comando | Atajo | Descripción |
+| --- | :---: | --- |
+| `:NERDTreeToggle` | `Ctrl + e` | muestra u oculta el explorador de archivos |
+
+Comandos qué sólo funcionan dentro del explorador:
+
+| Atajo | Descripción |
+| :---: | --- |
+| `o` | Abre el archivo en la ventana actual |
+| `t` | Abre el archivo en una nueva pestaña y se va a ella |
+| `T` | Abre el archivo en una nueva pestaña |
+| `i` | Abre el archivo haciendo split |
+| `s` | Abre el archivo haciendo vsplit |
+
+NERDTree tiene muchos más atajos, [aquí](https://github.com/scrooloose/nerdtree/blob/master/doc/NERDTree.txt#L220)
+tienes la documentación completa.
+
+
+### Syntastic
+
+| Comando | Atajo | Descripción |
+| --- | :---: | --- |
+| `:Errors` | `<leader>e` | Muestra los errores detallados para el buffer actual |
 
 
 ## Consejos
 
-`TODO`: Escribir tips habituales para futuras referencias
+### Buscar y reemplazar
+
+* `:s/<buscar>/<reemplazar>/<modificadores>` busca y reemplaza en la línea actual.
+* `:%s/<buscar>/<reemplazar>/<modificadores>` busca y reemplaza en todo el buffer.
+
+Los modificadores pueden ser:
+
+* `g` para buscar todas las ocurrencias. Si no se usa sólo se busca la primera.
+* `i` para indicar que es case-insensitive.
+* `c` para pedir confirmación antes de reemplazar.
+
+Para más información consultar [este enlace](http://vim.wikia.com/wiki/Search_and_replace).
 
 
 ## Licencia

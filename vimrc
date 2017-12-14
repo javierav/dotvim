@@ -201,14 +201,16 @@ au BufNewFile,BufRead *.skim set filetype=slim
 ""
 let g:syntastic_check_on_open = 1
 let g:syntastic_check_on_wq = 0
+let g:syntastic_aggregate_errors = 1
 let g:syntastic_error_symbol = "✗"
 let g:syntastic_style_error_symbol = "✗"
 let g:syntastic_warning_symbol = "⚠"
 let g:syntastic_style_warning_symbol = "⚠"
 
 " Configure checkers
-let g:syntastic_ruby_checkers=['mri', 'rubocop']
-let g:syntastic_ruby_rubocop_args = "-D"
+let g:syntastic_ruby_checkers = ['rubocop']
+let g:syntastic_ruby_rubocop_args = '-D'
+let g:syntastic_javascript_checkers = ['eslint']
 
 
 "
@@ -221,6 +223,7 @@ let g:vim_markdown_frontmatter = 1              " enable highlight of YAML front
 let g:vim_markdown_toml_frontmatter = 1         " enable highlight of TOML front matter
 let g:vim_markdown_json_frontmatter = 1         " enable highlight of JSON front matter
 
+
 "
 "" JSON syntax
 "
@@ -230,8 +233,8 @@ let g:vim_json_syntax_conceal = 0   " diable concealing
 "
 "" Key Mappings
 "
-nmap <leader>il :IndentLinesToggle<CR>
-nmap <C-e> :NERDTree<CR>
+nmap <C-e> :NERDTreeToggle<CR>
+nmap <leader>e :Errors<CR>
 
 
 "
