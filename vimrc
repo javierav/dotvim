@@ -200,6 +200,7 @@ let g:fugitive_gitlab_domains = ['https://gitlab.nosolosoftware.es']
 au BufNewFile,BufRead *.god set filetype=ruby
 au BufNewFile,BufRead *Jakefile set filetype=javascript
 au BufNewFile,BufRead *.skim set filetype=slim
+au BufNewFile,BufRead *.js set filetype=javascript
 
 
 ""
