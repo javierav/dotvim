@@ -203,23 +203,6 @@ au BufNewFile,BufRead *.skim set filetype=slim
 au BufNewFile,BufRead *.js set filetype=javascript
 
 
-""
-"" Syntastic
-""
-let g:syntastic_check_on_open = 1
-let g:syntastic_check_on_wq = 0
-let g:syntastic_aggregate_errors = 1
-let g:syntastic_error_symbol = "✗"
-let g:syntastic_style_error_symbol = "✗"
-let g:syntastic_warning_symbol = "⚠"
-let g:syntastic_style_warning_symbol = "⚠"
-
-" Configure checkers
-let g:syntastic_ruby_checkers = ['rubocop']
-let g:syntastic_ruby_rubocop_args = '-D'
-let g:syntastic_javascript_checkers = ['eslint']
-
-
 "
 "" Markdown Syntax
 "

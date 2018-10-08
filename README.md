@@ -12,7 +12,7 @@ submodulos de Git para gestionar los plugins.
 
 ### Linters
 
-* [Syntastic](https://github.com/scrooloose/syntastic): comprobador de sintaxis.
+* [Ale](https://github.com/w0rp/ale): comprobador de sintaxis.
 
 ### Sintaxis
 
