@@ -128,13 +128,6 @@ NERDTree tiene muchos más atajos, [aquí](https://github.com/scrooloose/nerdtre
 tienes la documentación completa.
 
 
-### Syntastic
-
-| Comando | Atajo | Descripción |
-| --- | :---: | --- |
-| `:Errors` | `<leader>e` | Muestra los errores detallados para el buffer actual |
-
-
 ## Consejos
 
 ### Buscar y reemplazar
