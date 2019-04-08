@@ -146,4 +146,4 @@ Para más información consultar [este enlace](http://vim.wikia.com/wiki/Search_
 
 ## Licencia
 
-Copyright (c) 2018 Javier Aranda - Publicado bajo una licencia [MIT](LICENSE).
+Copyright (c) 2019 Javier Aranda - Publicado bajo una licencia [MIT](LICENSE).
