@@ -10,9 +10,6 @@
 [submodule "bundle/indent-line"]
 	path = bundle/tools-indent-line
 	url = https://github.com/Yggdroot/indentLine.git
-[submodule "bundle/editorconfig"]
-	path = bundle/tools-editorconfig
-	url = https://github.com/editorconfig/editorconfig-vim.git
 [submodule "bundle/vim-css-color"]
 	path = bundle/syntax-css-color
 	url = https://github.com/ap/vim-css-color.git
@@ -49,3 +46,6 @@
 [submodule "bundle/linter-ale"]
 	path = bundle/linter-ale
 	url = https://github.com/w0rp/ale.git
+[submodule "bundle/tools-editorconfig"]
+	path = bundle/tools-editorconfig
+	url = https://github.com/editorconfig/editorconfig-vim.git

@@ -212,6 +212,7 @@ let g:vim_markdown_no_default_key_mappings = 1  " disable default key mappings
 let g:vim_markdown_frontmatter = 1              " enable highlight of YAML front matter
 let g:vim_markdown_toml_frontmatter = 1         " enable highlight of TOML front matter
 let g:vim_markdown_json_frontmatter = 1         " enable highlight of JSON front matter
+let g:vim_markdown_conceal_code_blocks = 0      " disable conceal for code block
 
 
 "
