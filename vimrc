@@ -201,6 +201,7 @@ au BufNewFile,BufRead *.god set filetype=ruby
 au BufNewFile,BufRead *Jakefile set filetype=javascript
 au BufNewFile,BufRead *.skim set filetype=slim
 au BufNewFile,BufRead *.js set filetype=javascript
+au BufNewFile,BufRead *.tt set filetype=eruby
 
 
 "
