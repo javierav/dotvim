@@ -70,7 +70,7 @@ Si queremos actualizar los plugins a la última versión publicada tenemos dispo
 script:
 
 ```
-$ ./update-plugins.sh
+$ git submodule update --remote
 ```
 
 
