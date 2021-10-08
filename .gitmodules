@@ -1,51 +1,68 @@
 [submodule "bundle/nerdtree"]
 	path = bundle/tools-nerdtree
 	url = https://github.com/scrooloose/nerdtree.git
+  branch = master
 [submodule "bundle/fugitive"]
 	path = bundle/tools-fugitive
 	url = https://github.com/tpope/vim-fugitive.git
+  branch = master
 [submodule "bundle/lightline"]
 	path = bundle/tools-lightline
 	url = https://github.com/itchyny/lightline.vim.git
+  branch = master
 [submodule "bundle/indent-line"]
 	path = bundle/tools-indent-line
 	url = https://github.com/Yggdroot/indentLine.git
+  branch = master
 [submodule "bundle/vim-css-color"]
 	path = bundle/syntax-css-color
 	url = https://github.com/ap/vim-css-color.git
+  branch = master
 [submodule "bundle/tools-nerdtree-git"]
 	path = bundle/tools-nerdtree-git
 	url = https://github.com/Xuyuanp/nerdtree-git-plugin.git
+  branch = master
 [submodule "bundle/tools-lastplace"]
 	path = bundle/tools-lastplace
 	url = https://github.com/dietsche/vim-lastplace.git
+  branch = master
 [submodule "bundle/tools-ctrlp"]
 	path = bundle/tools-ctrlp
 	url = https://github.com/ctrlpvim/ctrlp.vim.git
+  branch = master
 [submodule "bundle/tools-gitgutter"]
 	path = bundle/tools-gitgutter
 	url = https://github.com/airblade/vim-gitgutter.git
+  branch = master
 [submodule "bundle/colors-onedark"]
 	path = bundle/colors-onedark
 	url = https://github.com/joshdick/onedark.vim.git
+  branch = main
 [submodule "bundle/syntax-polyglot"]
 	path = bundle/syntax-polyglot
 	url = https://github.com/sheerun/vim-polyglot.git
+  branch = master
 [submodule "bundle/tools-endwise"]
 	path = bundle/tools-endwise
 	url = https://github.com/tpope/vim-endwise.git
+  branch = master
 [submodule "bundle/tools-autopairs"]
 	path = bundle/tools-autopairs
 	url = https://github.com/jiangmiao/auto-pairs.git
+  branch = master
 [submodule "bundle/tools-fugitive-github"]
 	path = bundle/tools-fugitive-github
 	url = https://github.com/tpope/vim-rhubarb.git
+  branch = master
 [submodule "bundle/tools-fugitive-gitlab"]
 	path = bundle/tools-fugitive-gitlab
 	url = https://github.com/shumphrey/fugitive-gitlab.vim.git
+  branch = master
 [submodule "bundle/linter-ale"]
 	path = bundle/linter-ale
 	url = https://github.com/w0rp/ale.git
+  branch = master
 [submodule "bundle/tools-editorconfig"]
 	path = bundle/tools-editorconfig
 	url = https://github.com/editorconfig/editorconfig-vim.git
+  branch = master
