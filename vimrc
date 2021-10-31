@@ -128,15 +128,7 @@ execute pathogen#infect('bundle/{}', '~/.vim-plugins/{}')
 "" Theme & colors
 ""
 
-" from https://github.com/joshdick/onedark.vim#installation
-" used in onedark theme
-if (empty($TMUX))
-  if (has("termguicolors"))
-    set termguicolors
-  endif
-endif
-
-colorscheme onedark
+colorscheme default
 
 
 ""
